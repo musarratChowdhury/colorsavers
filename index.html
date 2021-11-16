@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cssPractice</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="title">
+      <p>My Favourite Colors</p>
+    </div>
+    <div class="form-container">
+      <form id="color-input-form">
+        <label for="colorName-input">Enter Color Name :</label>
+        <input type="text" name="colorName-input" id="colorName-input" />
+        <label for="colorHEX-input">Enter Color HEX value: </label><br />
+        <input type="text" name="colorHEX-input" id="colorHEX-input" />
+        <input type="submit" value="Submit" id="submit-btn" />
+        <input type="reset" value="Reset" id="reset-btn" />
+      </form>
+    </div>
+    <div class="alert-box"></div>
+    <div class="table-container">
+      <table id="data-table">
+        <tbody id="table-body">
+          <tr>
+            <th>Color HEX</th>
+            <th>Display</th>
+            <th>Name</th>
+          </tr>
+          <tr>
+            <td>#255784</td>
+            <td><span class="color-display dark-blue"></span></td>
+            <td>Dark Blue</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- <a> neon light</a> -->
+  </body>
+</html>
